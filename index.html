@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫のフォトギャラリー</title>
+    <meta name="description" content="かわいい猫のフォトギャラリーです。">
+    <!-- BS Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- BS5  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gallery.css">
+  </head>
+
+  <body>
+    <header>
+      <!-- stick-top/fixed-top: ヘッダーの固定-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container-fluid">
+          <!-- icosを設定, me-1: margin-right:0.2em -->
+          <a href="index.html" class="navbar-brand"><i class="bi bi-images me-1"></i>Cats</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collape navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- px-x:水平方向、py-y:垂直方向(padding)  -->
+      <div class="px-3 py-5 bg-img ">
+        <div class="container text-white" id="main_img">
+          <h1><i class="bi bi-camera2 me-1"></i>Photo gallery</h1>
+          <p>Look at Cutie Cats PhotoGalley!!</p>
+        </div>
+      </div>
+
+      <!-- mt(margin-top: 1.5) -->
+      <div class="container mt-4">
+        <!-- gy: 1.5rem(20px); 溝の意味で、グリッドシステム(サブネイル)同士の感覚を開けてくれる  -->
+        <div class="row gy-3">
+          <!-- 画面がサイズに沿ってそって画像表示を徐々に縦並びに変化させる -->
+          <div class="col-lg-4 col-sm-6">
+            <!-- img-thumbnailクラス属性は画像をきれいに並べてくれる -->
+            <img src="https://source.unsplash.com/C0zDWAPFT9A
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/fEK4jvgnApg
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/egfS7HzgKcc
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- 画面がサイズに沿ってそって画像表示を徐々に縦並びに変化させる -->
+            <!-- img-thumbnailクラス属性は画像をきれいに並べてくれる -->
+            <img src="https://source.unsplash.com/e-S23SJzFqs
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/Hnwm8ktAd6E
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/gb3gq2Nh5xE
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- 画面がサイズに沿ってそって画像表示を徐々に縦並びに変化させる -->
+            <!-- img-thumbnailクラス属性は画像をきれいに並べてくれる -->
+            <img src="https://source.unsplash.com/XKhV1c4oV7c
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/7qau-YIXn90
+            " alt="cat" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img src="https://source.unsplash.com/QTe-MHNUrz4
+            " alt="cat" class="img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-4 mt-5 bg-dark text-center">
+      <div class="container">
+        <!-- text-wite-50: テキスト、背景色、透明度 -->
+        <p class="text-white-50 small">&copy; 2021 Tensho Ohashi.</p>
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
